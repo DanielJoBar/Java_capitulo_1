@@ -4,8 +4,6 @@ import java.util.Scanner;
 * Muestra por pantalla la frase "¡Hola mundo!"
 *
 */
-
-import java.util.Scanner;
 public class Ejercicio2 { // Clase principal
     public static void main(String[] args) {
     Scanner sc = new Scanner(System.in); 
