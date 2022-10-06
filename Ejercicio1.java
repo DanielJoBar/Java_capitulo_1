@@ -1,11 +1,9 @@
-/**
-* Muestra por pantalla la frase "¡Hola mundo!"
-*
-*/
-public class Ejercicio1 { // Clase principal
+import java.util.Scanner;
+public class Ejercicio1 { 
     public static void main(String[] args) {
+    Scanner sc = new Scanner(System.in);
     System.out.println("Escriba su nombre:  ");
     String name  = sc.next();
-    System.out.print(name);
+    System.out.println(""+name);
     }
     }
