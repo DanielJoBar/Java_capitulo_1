@@ -4,7 +4,7 @@ public class Ejercicio2 {
     Scanner sc = new Scanner(System.in); 
     System.out.print("Introduzca su nombre u apodo:  ");
     String name =sc.next();
-    System.out.print("Introduzca su dirección:   ");
+    System.out.print("Introduzca su dirección(sin espacios):   ");
     String direction = sc.next();
     System.out.print("Introduzca su número de teléfono:   ");
     String telphone = sc.next();
